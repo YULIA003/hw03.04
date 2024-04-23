@@ -53,7 +53,7 @@ public class Main {
         } else if (deliveryDistance >= 61 && deliveryDistance <= 100) {
             return 3;
         } else {
-            return 4;
+            return -1;
         }
     }
 }
